@@ -1,0 +1,416 @@
+body {
+/* font-family: ; */
+font-size: 14px;
+font-weight: 26px;
+padding: 0px;
+margin: 0px;
+background-color: antiquewhite;
+/* animation: background 9s cubic-bezier(1,0,0,1) infinite;   */
+}
+
+/* @-webkit-keyframes background {
+  0% { background-color: #f99; }
+  33% { background-color: #9f9; }  
+  67% { background-color: #99f; }
+  100% { background-color: #f99; }
+} */
+
+
+p{
+margin-bottom: 0px !important;
+}
+
+.looking__for__job {
+background: transparent;
+}
+.logo{
+  font-weight: 900;
+  font-size: 18px;
+}
+.call{
+  font-weight: 900;
+  font-size: 18px;
+}
+.tag{
+ z-index: 100; 
+}
+.overlay__main{
+height: auto;
+position: relative;
+}
+.o-bits{
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 70px;
+  top: 85%;
+  right: 25%;
+  user-select: none;
+  pointer-events: none;
+  z-index: 50;
+}
+.o-bits::before{
+  position: absolute;
+  top: 0;
+  left: 150px;
+  background: #5eba7d;
+  width: 50%;
+  height: 50%;
+  content: '';
+  border-radius: 13% 13% 0;
+}
+.o-bits::after{
+  position: absolute;
+  top: 33px;
+  left: 183px;
+  background: #cae8d4;
+  width: 50%;
+  height: 50%;
+  content: '';
+  border-radius: 13% 13% 0;
+}
+.inside__overlay{
+padding-top: 30px;
+}
+
+.level__up{
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+.level__up h4{
+font-weight: 900;
+color: rgb(0, 59, 0);
+/* border: 4px solid rgb(0, 255, 0); */
+display: inline-block;
+padding: 10px;
+}
+.level__up h4 i{
+color: rgb(0, 59, 0);
+font-weight: 900;
+}
+.looking {
+font-weight: 900;
+padding-bottom: 15px;
+color: rgb(0, 59, 0);
+}
+.job__box {
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.skill__box {
+text-align: center;
+background: rgb(0, 59, 0);
+margin-right: 20px;
+border-radius: 7px;
+box-shadow: 0px 0px 14px -10px #000000;
+}
+.skill__box p {
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+color: lightgray;
+box-shadow: 0px 0px 14px -10px #000000;
+padding-bottom: 10px;
+}
+
+.skill__box i {
+color: rgb(193, 202, 212);
+font-size: 90px;
+font-weight: 500;
+padding: 25px 25px 8px 25px;
+}
+.skill__box img {
+width: 50px;
+height: 50px;
+}
+.job__box{
+  margin-bottom: 50px;
+}
+.looking__for__job h4 {
+}
+.author__me {
+}
+.author__box {
+background: rgb(0, 59, 0);
+border: 3px solid lightgray;
+}
+.left__col {
+}
+.right__col {
+
+}
+.right__col p {
+color: lightgray;
+text-align: justify;
+font-size: 14px;
+font-weight:600 ;
+margin-bottom: 0px;  
+padding: 15px;
+}
+.earn__two__skills{
+margin-bottom: 90px;
+position: relative;
+}
+.p-bits{
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 70px;
+  user-select: none;
+  pointer-events: none;
+  z-index: 50;
+}
+.p-bits::before{
+  position: absolute;
+  top: 0;
+  left: 150px;
+  background: darkgray;
+  width: 50%;
+  height: 50%;
+  content: '';
+  border-radius: 13% 13% 0;
+}
+.p-bits::after{
+  position: absolute;
+  top: 33px;
+  left: 183px;
+  background: skyblue;
+  width: 50%;
+  height: 50%;
+  content: '';
+  border-radius: 13% 13% 0;
+}
+
+.skill__two{
+text-align: center;
+color: lightgray;
+background: rgb(0, 59, 0);
+padding: 20px;
+border-radius: 7px;
+position: relative;
+}
+.skill__two::after{
+  clip-path: polygon(18px 0, 32px 0, 0 40px, 0 38px, 0 0, 18px 0);
+  background: rgb(0, 59, 0);
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 96%;
+  left: 0;
+  display: block;
+  content: '';
+  border-radius: 0 5px 0;
+}
+.skill__two i{
+font-size: 26px;
+}
+.skill__two a{
+display: inline-block;
+padding: .8em;
+border: 1px solid transparent;
+border-radius: 3px;
+background-color: lightgray;
+outline: none;
+font-family: inherit;
+font-size: 13px;
+font-weight: normal;
+line-height: 1.15384615;
+text-align: center;
+text-decoration: none !important;
+cursor: pointer;
+margin-top: 12px;
+color: black;
+}
+.middle__box{
+}
+.middle__box__container{
+height: 700px;
+background: rgb(0, 59, 0);
+border-radius: 7px;
+}
+.middle__box__container h4{
+color: lightgray;
+font-weight: 900;
+}
+.tag__line__container{
+  padding-top: 100px;
+}
+.tag__line{
+border-radius: 6px;
+background-color:#5eba7d;
+padding: 20px;
+height: auto;
+}
+.tag__line a{
+text-decoration: none !important;
+color: lightgray;
+}
+.tag__line a:hover{
+color: lightgray;
+}
+
+
+.tag__line__middle{
+margin-bottom: -10px;
+}
+.tag__line p{
+ color: lightgray;
+ font-weight: 700;
+}
+.tag__line__pb{
+  padding-top: 10%;
+}
+.tag__line-1{
+background-color: #5eba7d;
+height: 150px;
+width: 150px;
+border-radius: 50%;
+text-align: center;
+position: relative;
+transition: all .4s;
+}
+
+.tag__line-1:hover{
+  transform: scale(1.2);
+}
+.number{
+position: absolute;
+top: -25px;
+left: -3px;
+color: lightgray;
+font-size: 60px;
+font-weight: bolder;
+}
+.tag__line-1 p{
+ text-align: center;
+ color: lightgray;
+padding-top: 35%;
+font-weight: 900;
+font-size: 20px;
+}
+.orange-bits{
+position: relative;
+}
+.or-bits{
+  position: absolute;
+  display: block;
+  width: 90px;
+  height: 90px;
+  top: 90%;
+  right: 20%;
+  user-select: none;
+  pointer-events: none;
+  z-index: 50;
+}
+.or-bits::before{
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  background: #f2720c;
+  width: 50%;
+  height: 50%;
+  content: '';
+  border-radius: 13% 13% 0;
+}
+.or-bits::after{
+  position: absolute;
+  top: -44px;
+  left: 158px;
+  background: #fcd0ad;
+  width: 50%;
+  height: 50%;
+  content: '';
+  border-radius: 13% 13% 0;
+}
+.what__our__students__say{
+margin-bottom: 5%;
+margin-top: 3%;
+}
+.author__me{
+margin-bottom: 5%;
+margin-top: 3%;
+}
+.footer{
+padding-top: 10px;
+padding-bottom: 10px;
+background: #5eba7d;
+}
+.fab{
+cursor: pointer;
+}
+
+
+.footer a{
+  text-decoration: none !important;
+  color: black;
+  }
+  .footer a:hover{
+  color: lightgray;
+  }
+
+.me{
+  padding-top: 25px;
+  width:50%;
+ 
+}
+/* All CSS DESIGN */
+.universe-1{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  background-color: aliceblue;
+  border-radius: 50%;
+  top: 35%;
+  left: 5%;
+  z-index: -1;
+}
+.universe-2{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-color: skyblue;
+  border-radius: 50%;
+  top: 32%;
+  left: 15%;
+  z-index: -1;
+}
+.universe-3{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 60%;
+  left: 22%;
+  box-shadow: 0px 0px 14px -10px #000000;
+  z-index: -1;
+}
+
+.planet{
+position: relative;
+}
+
+.planet-1{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  background-color:  aliceblue;
+  border-radius: 50%;
+  top: 35%;
+  right: 17%;
+  z-index: -1;
+}
+.planet-2{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  background-color: darkgray;
+  border-radius: 50%;
+  top: 35%;
+  right: 14%;
+  z-index: -4;
+}
+/* All CSS DESIGN */
+
+
+
